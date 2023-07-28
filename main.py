@@ -10,5 +10,6 @@ with st.container():
   st.write("---------------------------------------")
 
 st.dataframe(df)
-
-st.bar_chart(df,x=df["RAPE,FORCIBLE"],y=df["RAPE,FORCIBLE"].sum())
+xaxis="Robbery"
+yaxis=df[df["Crm Cd Desc"] == "Robbery"].shape[0]
+st.bar_chart(x=xaxis,y=yaxis)
