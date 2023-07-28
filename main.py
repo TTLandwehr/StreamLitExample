@@ -11,4 +11,4 @@ with st.container():
 
 st.dataframe(df)
 
-st.bar_chart(df)
+st.bar_chart(df,x=df["RAPE,FORCIBLE"],y=df["RAPE,FORCIBLE"].sum())
