@@ -10,3 +10,5 @@ with st.container():
   st.write("---------------------------------------")
 
 st.dataframe(df)
+
+st.bar_chart(df)
