@@ -8,3 +8,5 @@ st.set_page_config(page_title="StreamLit Example",layout="wide")
 with st.container():
   st.write("Crimes that have happened in LA in 2020")
   st.write("---------------------------------------")
+
+st.dataframe(df)
