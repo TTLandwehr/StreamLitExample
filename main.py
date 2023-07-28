@@ -10,6 +10,3 @@ with st.container():
   st.write("---------------------------------------")
 
 st.dataframe(df)
-xaxis="ROBBERY"
-yaxis=df[df["Crm Cd Desc"] == "Robbery"].shape[0]
-st.bar_chart(df,x=xaxis,y=yaxis)
