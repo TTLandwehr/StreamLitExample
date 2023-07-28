@@ -12,4 +12,4 @@ with st.container():
 st.dataframe(df)
 xaxis="Robbery"
 yaxis=df[df["Crm Cd Desc"] == "Robbery"].shape[0]
-st.bar_chart(x=xaxis,y=yaxis)
+st.bar_chart(df,x=xaxis,y=yaxis)
